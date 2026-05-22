@@ -7,11 +7,11 @@ if total_amount >= 1000000:
 print(f"Số tiền phải thanh toán là {total_amount}")
 
 # câu 2
-password ="123"
+password ="123456"
 qty_input = 0
 while True:
     input_password = input("Nhập mật khẩu: ")
-    if input_password =="123":
+    if input_password ==password:
         print("đăng nhập thành công")
         break
     else:
